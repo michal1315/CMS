@@ -1,1 +1,41 @@
 @import "bootstrap.css";
+
+
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+    padding:0 10px;
+    padding-top: 20px;
+}
+.head_left{
+    float: left;
+    width: 500px;
+}
+.head_right{
+    float: right;
+    margin-bottom: 20px;
+}
+.clear{
+    clear: both;
+}
+#left_column{
+    min-height: 300px;
+}
+#right_column{
+    margin-top: 62px;
+}
+#right_column img{
+    padding-left: 10px;
+}
+.right_content{
+    background: #DF6E1E;
+}
+#footer{
+    clear: both;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 30px;
+    border-top: 1px solid #CCCCCC;
+    padding-bottom: 20px;
+}
+/*Toolbar*/
