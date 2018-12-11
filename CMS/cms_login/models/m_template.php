@@ -16,7 +16,7 @@ class Template{
 
     function setData($name,$value){
 
-    $this->data[$name] - htmlentities($value, ENT_QUOTES);
+    $this->data[$name] = htmlentities($value, ENT_QUOTES);
 
     }
 
