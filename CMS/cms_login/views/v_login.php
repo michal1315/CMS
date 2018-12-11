@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<h1>Logowanie</h1>
+<h1><?php  echo $this->getData("nazwa");?></h1>
 <p>Akapit</p>
 
 
