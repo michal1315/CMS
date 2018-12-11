@@ -3,6 +3,7 @@
 class Template{
 
     private $data;
+    private $alertTypes;
 
     function _construct (){
 
@@ -31,6 +32,40 @@ class Template{
 
 
 
+    }
+
+    function setAlertTypes($types){
+
+        $this->setAlertTypes =$types;
+
+    }
+
+    function setAlert($value, $type = null){
+
+        if($type=""){
+            $type = $this->alertTypes[0];
+            $_SESSION[$type][] = $value;
+        }
+    }
+
+    function getAlert(){
+
+        $data="";
+        foreach ($this->setAlertTypes as $alert){
+            if(isset($_SESSION[$alert])){
+                foreach ($_SESSION[$alert] as $value){
+                    $data.= '<li class="'. $alert . '">'. $value . '</li>';
+                }
+
+                unset($_SESSION[$alert]);
+
+            }
+
+
+
+        }
+
+        return $data;
     }
 
 }
