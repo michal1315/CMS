@@ -11,6 +11,17 @@
 <body>
 
 <h1><?php  echo $this->getData("nazwa");?></h1>
+
+<?php
+
+$alerts = $this->getAlerts();
+
+if($alerts !=''){
+    echo '<ul class = "alerts">' . $alerts . '</ul>';
+}
+
+
+?>
 <p>Akapit</p>
 
 
