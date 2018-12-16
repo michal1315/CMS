@@ -1,3 +1,14 @@
 p{
+    color: coral;
+}
+li.success{
+        color: greenyellow;
+    }
+li.warning{
+    color: yellow;
+}
+li.error{
     color: red;
 }
+
+
