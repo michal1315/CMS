@@ -42,7 +42,7 @@ class Template{
 
     function setAlert($value, $type = null){
 
-        if($type=""){
+        if($type==""){
             $type = $this->alertTypes[0];
             $_SESSION[$type][] = $value;
         }
