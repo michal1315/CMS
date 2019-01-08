@@ -12,9 +12,11 @@ class Template{
     }
 
     function load($url){
-
         include ($url);
+    }
 
+    function redirect($url){
+         header("Location: $url");
     }
 
     function setData($name,$value){
