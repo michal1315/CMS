@@ -37,6 +37,21 @@ class Auth{
 
     }
 
+    function checkLoginStatus(){
 
+    if(isset($_SESSION['loggedin'])){
+        return TRUE;
+    }
+        else{
+            return FALSE;
+        }
+
+    }
+
+    function logout(){
+    session_destroy();
+    session_start();
+
+    }
 
 }
