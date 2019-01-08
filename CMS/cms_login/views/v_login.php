@@ -10,19 +10,33 @@
 </head>
 <body>
 
-<h1><?php  echo $this->getData("nazwa");?></h1>
+<h1>Login</h1>
 
-<?php
+<form action="" method="post">
 
-$alerts = $this->getAlerts();
+    <?php
+    $alerts = $this->getAlerts();
+    if($alerts != '') {
+        echo '<ul class="alerts">' . $alerts . '</ul>';
+    }
+    ?>
 
-if($alerts !=''){
-    echo '<ul class = "alerts">' . $alerts . '</ul>';
-}
+    <p>
+        <label for="username">Użytkownik: </label>
+        <input type="text"  name = "username" value = "<?php echo $this->getData('input_user'); ?>" >
+    </p>
+    <p>
+        <label for="password">Hasło: </label>
+        <input type="password"  name = "password" value = "<?php echo $this->getData('input_pass'); ?>" >
+    </p>
+    <p>
+    <input type="submit" name="submit" class="submit" value="Wyślij">
+    </p>
 
 
-?>
-<p>Akapit</p>
+
+</form>
+
 
 
 </body>
