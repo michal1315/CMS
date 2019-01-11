@@ -13,7 +13,7 @@ if(isset($_POST['submit'])) {
     if ($_POST['username'] == '' || $_POST['password'] == '') {
         $Template->setAlert('Uzupełnij wymagane pola', 'error');
         $Template->load("views/v_login.php");
-    } else if ($Auth->validateLogin($Template->getData('input_user'), $Template->getData('input_pass') == FALSE)) {
+    } else if ($Auth->validateLogin($Template->getData('input_user'), $Template->getData('input_pass')) == FALSE) {
         $Template->setAlert('Nieprawidłowy login lub hasło', 'error');
         $Template->load("views/v_login.php");
     } else {
