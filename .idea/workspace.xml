@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f54f8dc9-692c-40f5-ba47-8259dfe4ec8e" name="Default Changelist" comment="">
+    <list default="true" id="f54f8dc9-692c-40f5-ba47-8259dfe4ec8e" name="Default Changelist" comment="add redirection code">
       <change beforePath="$USER_HOME$/PhpstormProjects/CMS/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/PhpstormProjects/CMS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/users.php" beforeDir="false" afterPath="$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/users.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/views/v_login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-298">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="90">
+              <caret line="6" column="9" selection-end-line="45" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -32,13 +31,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="45">
+              <caret line="3" column="29" selection-start-line="3" selection-end-line="3" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/users.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -58,7 +57,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/views/v_users.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -88,9 +91,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/logout.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -143,6 +150,8 @@
         <option value="$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/models/m_auth.php" />
         <option value="$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/login.php" />
         <option value="$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/users.php" />
+        <option value="$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/views/v_users.php" />
+        <option value="$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/logout.php" />
       </list>
     </option>
   </component>
@@ -235,7 +244,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/CMS" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/CMS/CMS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -249,7 +258,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -297,7 +306,7 @@
       <workItem from="1546958191466" duration="6749000" />
       <workItem from="1547214230448" duration="24000" />
       <workItem from="1547214285279" duration="2126000" />
-      <workItem from="1547217148857" duration="4207000" />
+      <workItem from="1547217148857" duration="5408000" />
     </task>
     <task id="LOCAL-00001" summary="initial stage, index.html and some resource files was created">
       <created>1544381944608</created>
@@ -495,11 +504,32 @@
       <option name="project" value="LOCAL" />
       <updated>1547219426563</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add redirection code">
+      <created>1547222331663</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1547222331663</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add users view code">
+      <created>1547223120417</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1547223120417</updated>
+    </task>
+    <task id="LOCAL-00031" summary="implement logout function">
+      <created>1547223153082</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1547223153082</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44280000" />
+    <option name="totallyTimeSpent" value="45481000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -585,10 +615,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
+      <path value="$USER_HOME$/PhpstormProjects/CMS/CMS" />
     </ignored-roots>
-    <MESSAGE value="styled index file" />
-    <MESSAGE value="create main php files" />
-    <MESSAGE value="add content to v_login and view_style files" />
     <MESSAGE value="include v_login file in login.php" />
     <MESSAGE value="create load function and place it in login.php file" />
     <MESSAGE value="add setData and getData function" />
@@ -611,7 +639,10 @@
     <MESSAGE value="change workspace" />
     <MESSAGE value="fix login validate function" />
     <MESSAGE value="change in workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="change in workspace" />
+    <MESSAGE value="add redirection code" />
+    <MESSAGE value="add users view code" />
+    <MESSAGE value="implement logout function" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement logout function" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.php" />
@@ -683,18 +714,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/logout.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/temp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/views/v_users.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/views/view_style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -705,15 +730,15 @@
     </entry>
     <entry file="file://$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/views/v_login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-298">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="90">
+          <caret line="6" column="9" selection-end-line="45" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/login.php">
+    <entry file="file://$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/views/v_users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -721,6 +746,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PhpstormProjects/CMS/CMS/cms_login/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
